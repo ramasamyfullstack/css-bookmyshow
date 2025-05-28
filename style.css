@@ -1,0 +1,124 @@
+@font-face {
+    font-family: myfont-regular;
+    src: url(./Fonts/Poppins-Regular.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: myfont-regular;
+}
+
+.logo img{
+    width: 140px;
+}
+
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.main, .main-1, .main-2, .main-3, .main-4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.relative{
+    position: relative;
+}
+
+.searchicon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.searchbox input[type="text"]{
+    padding: 9px 35px;
+    width: 500px;
+    border: 1px solid #dedede;
+    border-radius: 7px;
+}
+
+.main{
+    margin: 14px 0px;
+}
+
+.sigin {
+    background-color: #ff006d;
+    color: white;
+    padding: 5px 13px;
+    border-radius: 6px;
+}
+
+.bi-list {
+    font-size: 28px;
+}
+
+.bi-chevron-down {
+    font-size: 10px;
+    padding: 10px;
+}
+.headbg{
+    background-color: rgba(245,245,245,255);
+    width: 100%;
+    
+    
+}
+
+.headbg a{
+    color: black;
+    padding: 10px 0px;
+    font-size: 15px;
+
+
+}
+
+.mvflex{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+.mvflex img {
+    width: 97%;
+    border-radius: 19px;
+}
+
+div h4{
+    margin: 7px;
+}
+
+div p {
+    margin: 5px;
+    padding: 0px;
+}
+
+.bgmovie{
+    background-color: rgb(47, 65, 145);
+    width: 100%;
+    padding: 17px 0px;
+    margin: 20px 0px;
+    color: white;
+}
+
+.bgmovie h2{
+    margin: 0px 0px 18px 0px;
+}
